@@ -429,7 +429,7 @@ input[id="menuicon"]+label, .slidebar{
    display: flex;
    justify-content: center;
    width: 90%;
-   margin-bottom: 20px;
+   margin-bottom: 35px;
    padding: 50px 5%;
    height: auto;
    
@@ -716,6 +716,9 @@ input[id="menuicon"]+label, .slidebar{
 .btn2{
    display: none;
 }
+.footer2 p{
+   font-weight: 300;
+}
 
 
 @media(max-width:1810px){
@@ -948,7 +951,7 @@ input[id="menuicon"]+label, .slidebar{
    .value_in h1{
       font-size: 28px;
    }
-   .company_history2 h1, .company_loca2 h1{
+   .company_history2 h1, .company_loca2 h1, .sub_value h1{
       font-size: 28px;
    }
    .company_history2 h2{
@@ -998,7 +1001,7 @@ input[id="menuicon"]+label, .slidebar{
     .logo3{
         display: none;
     }
-    .company_history2 h1, .company_loca2 h1{
+    .company_history2 h1, .company_loca2 h1, .sub_value h1{
       font-size: 23px;
    }
    .company_history2 h3{
@@ -1027,8 +1030,8 @@ input[id="menuicon"]+label, .slidebar{
    #main_banner h1{
       font-size: 25px;
     }
-    .sub_value h1{
-      font-size: 23px;
+    .company_history2 h1, .company_loca2 h1, .sub_value h1{
+      font-size: 20px;
     }
     .sub_value h2{
       font-size: 18px;
